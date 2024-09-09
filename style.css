@@ -1,0 +1,113 @@
+html,
+body {
+  /* height: 100%; */
+  /* width: 100%; */
+  height: 1080px;
+  width: 1920px;
+  /* overflow: hidden; */
+  padding,
+  margin: 0;
+  background-color: #fff;
+}
+
+span {
+  color: black;
+}
+
+main {
+  display: grid;
+  text-align: center;
+  place-items: center;
+  /* height: 100vh; */
+  height: 1080px;
+  position: relative;
+}
+
+#tracktest {
+  position: absolute;
+  left: 20px;
+  bottom: 150px;
+}
+
+#container {
+  /* grid-column: 1 / 2; */
+  /* grid-row: 2; */
+  height: 254px;
+  width: 514px;
+  /* background-image: url(bluebg.png); */
+  background-color: #95C2F9;
+  /* left: 850px; */
+  /* top: 43%; */
+  position: relative;
+  /* bottom: 100px; */
+  border-radius: 25px;
+  top: -160px;
+}
+
+/* CAT anchor */
+#anchor {
+  top: 20px;
+  position: relative;
+  z-index: 4;
+  height: auto;
+}
+
+
+#search {
+  width: 584px;
+  position: absolute;
+  left: 670px;
+  right: 670px;
+  top: 545px;
+}
+
+#google {
+  position: absolute;
+  width: 190px;
+  z-index: 3;
+  left: 870px;
+  right: -870px;
+  top: 465px;
+}
+
+.eye {
+  position: absolute;
+}
+
+
+#eyes,
+#eyes img {
+  top: 40px;
+  position: absolute;
+  z-index: 3;
+}
+
+.left {
+  left: 190px;
+  right: 14px;
+}
+
+.right {
+  /* top: 55%; */
+  left: 266px;
+}
+
+#kscope {
+  position: absolute;
+  left: 711px;
+  right: 700px;
+  top: 261px;
+  /* display: none; */
+  /* z-index: 1; */
+  border-radius: 25px;
+}
+
+#overlay {
+  position: absolute;
+  left: 711px;
+  right: 700px;
+  top: 261px;
+  mix-blend-mode: soft-light;
+  z-index: 2;
+  border-radius: 25px;
+}
